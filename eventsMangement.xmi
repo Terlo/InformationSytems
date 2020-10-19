@@ -235,7 +235,11 @@
       <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="uC1lAGFJGsvVN" xmi.id="uP1WJGDuKCVbR" parent="um2oTxJChAUiA" name=""/>
       <UML:Generalization discriminator="" visibility="public" isSpecification="false" namespace="Logical_View" child="u2PLEXFSbnDF0" xmi.id="u3JK99d5okmoE" parent="um2oTxJChAUiA" name=""/>
       <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="urxYk1VlcdOcv" name="PaymentMethod"/>
-      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uV2BymYAhN2H3" name="Performer"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uV2BymYAhN2H3" name="Performer">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uyk5CfkTqoEPz" type="uUhc5jBgUXmZh" name="firstName"/>
+       </UML:Classifier.feature>
+      </UML:Class>
       <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uNXaNBImq8mho" name="boolean"/>
       <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ufe9v67sPpBIk" name="new_class"/>
       <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uuZmXkoFRwZgZ" name="paymentMethod"/>
@@ -584,7 +588,9 @@
      <listitem open="1" type="813" id="uXIB0Z71wshBl"/>
      <listitem open="1" type="813" id="uuZmXkoFRwZgZ"/>
      <listitem open="1" type="813" id="urxYk1VlcdOcv"/>
-     <listitem open="1" type="813" id="uV2BymYAhN2H3"/>
+     <listitem open="1" type="813" id="uV2BymYAhN2H3">
+      <listitem open="0" type="814" id="uyk5CfkTqoEPz"/>
+     </listitem>
      <listitem open="1" type="813" id="ufrQRFtuK6LHY">
       <listitem open="0" type="815" id="uwUDr3wW1jsTm"/>
       <listitem open="0" type="815" id="ufhpv1EZOLdhX"/>
@@ -645,7 +651,7 @@
       <listitem open="0" type="815" id="upgH8Lc2DJ8q8"/>
       <listitem open="0" type="815" id="uqWniemDOR4xJ"/>
      </listitem>
-     <listitem open="0" type="813" id="um2oTxJChAUiA">
+     <listitem open="1" type="813" id="um2oTxJChAUiA">
       <listitem open="0" type="814" id="upje91vuTl2Ef"/>
       <listitem open="0" type="814" id="uvKqhQqMbEdDP"/>
       <listitem open="0" type="814" id="uq46JvS2V2JRd"/>
